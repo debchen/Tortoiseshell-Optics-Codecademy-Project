@@ -4,13 +4,139 @@ html {
   line-height: 1.4rem;
 }
 
+
+
 /* banner */
+header {
+  height: 31rem;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.banner-container {
+  display: flex;
+  max-width: 960px;
+  margin: auto;
+  background-color: cadetblue;
+  margin-top: 1rem;
+  flex-wrap:wrap;
+  align-items; center;
+  justify-content: space-between;
+}
+
+header img{
+  flex-grow:1;
+  height: 1.5rem;
+  padding-left: 2rem;
+}
+
+header span {
+  font-size: 1rem;
+  color: white;
+  align-items:center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 1rem 2rem 1rem 0;
+  align-items:center;
+}
+
+.container{
+  display: flex;
+  max-width: 960px;
+  margin: auto;
+}
+
+.headline {
+  margin-top: 10rem;
+  margin-right: -2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-weight:bold;
+  font-size: 2rem;
+  line-height:1.2;
+  text-align: center;
+}
 
 
 /* services */
+.services {
+  display: flex;
+  justify-content: center;
+}
 
+.image {
+  display: inline-block;
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.paper {
+  width: 3.5rem;
+}
+
+.ruler {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.truck{
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.image span {
+  display: block;
+}
 
 /* info */
 
+.info {
+  display: block;
+  width:35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
 
 /* footer */
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: felx;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left:2rem;
+  margin-right: 1rem;
+}
+
+footer span{
+  display: block;
+}
